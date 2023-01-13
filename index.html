@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Change this</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /><!--These settings are ideal for full-screen mobile use-->
+	<link rel="stylesheet" href="styles.css"/>
+	<!-- mapbox links -->
+	<script src='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
+	<!-- Tuff Library Link -->
+	<script src='https://unpkg.com/@turf/turf@6/turf.min.js'></script>
+
+</head>
+<body>
+
+	<p>	The map below allows users to easily locate the nearest hopistal from libraries in the Tacoma area.  When a hosptial symbol is clicked on a pop up will appear with the hosiptal name and address. When library symbol is clicked a popup will appear with the library name, the name of closest hospital to the library, address of hopsital, and distance to the hospital. The interface allows the users to easily locate the nearest hospital, understand the distance, and have the address to the hospital.  	
+	</p>
+
+	<br>
+
+	<p>
+	Sources: Pierce County Public Health Care Facilities and  Libraries
+	<br>
+	
+	</p>
+
+	<div id='map'></div>
+
+	<!-- JS File Link -->
+
+	<script src="scripts.js"></script>
+
+	<!-- JS File Links -->
+	<script src="data/libraries.js"></script>
+	<script src="data/hospitals.js"></script>
+
+</body>
+</html>
